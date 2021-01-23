@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/search.png" type="image/png">
+    <title>Google Homepage</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header class="header">
+
+            <nav class="nav header__nav">
+                <ul class="nav__link-list">
+                    <li class="nav__link"><a href="https://mail.google.com/mail">Gmail</a></li>
+                    <li class="nav__link"><a href="https://www.google.ru/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+
+                    <li class="nav__link nav__link--img apps-hover-btn">
+                        <a href="#">
+                            <img class="nav__img nav__img--apps" src="./img/show-apps-button.png" alt="Приложения Google">
+                        </a>
+                    </li>
+
+                    <!-- modal -->
+                    <div class="modal-wrapper modal-wrapper--apps">
+                        <div class="modal modal--apps">
+                            
+                            <div class="modal__app-wrapper">
+                                <div class="modal__app app app--icon-circle">
+                                    <a class="app__icon" href="#">
+                                        <img src="./img/account.jpg" alt="account">
+                                    </a>
+                                    <p class="app__name">Account</p>
+                                </div>
+                            </div>
+
+                            <div class="modal__app-wrapper">
+                                <div class="modal__app app">
+                                    <a class="app__icon" href="#">
+                                        <img src="./img/search.png" alt="search">
+                                    </a>
+                                    <p class="app__name">Search</p>
+                                </div>
+                            </div>
+
+                            <div class="modal__app-wrapper">
+                                <div class="modal__app app">
+                                    <a class="app__icon" href="#">
+                                        <img src="./img/google-maps.png" alt="maps">
+                                    </a>
+                                    <p class="app__name">Maps</p>
+                                </div>
+                            </div>
+
+                            <div class="modal__app-wrapper">
+                                <div class="modal__app app">
+                                    <a class="app__icon" href="#">
+                                        <img src="./img/youtube.png" alt="youtube">
+                                    </a>
+                                    <p class="app__name">Youtube</p>
+                                </div>
+                            </div>
+
+                            <div class="modal__app-wrapper">
+                                <div class="modal__app app">
+                                    <a class="app__icon" href="#">
+                                        <img src="./img/google.png" alt="news">
+                                    </a>
+                                    <p class="app__name">News</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- modal end -->
+
+                    <li class="nav__link nav__link--img img-hover-btn">
+                        <a href="#">
+                            <img class="nav__img nav__img--account" src="./img/account.jpg" alt="Аккаунт Google">
+                        </a>
+                    </li>
+
+                    <!-- modal -->
+                    <div class="modal-wrapper modal-wrapper--account">
+                        <div class="modal modal--account">
+
+                            <div class="modal__section modal__header">
+                                <div class="modal__avatar avatar">
+                                    <div class="avatar__now">
+                                        <img src="./img/account.jpg" alt="avatar">
+                                        
+                                        <div class="avatar__change-avatar">
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <path d="M20 5h-3.17L15 3H9L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 14H4V7h16v12zM12 9c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="modal__gmail"><a href="https://github.com/manulovich">fakeGmail.com</a></p>
+
+                                <button class="modal-btn modal-btn--rounding modal__btn-manage back-hover">Manage your Google Account</button>
+                            </div>
+
+                            <div class="modal__section modal__add-account add-account back-hover">
+                                <div class="add-account__icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path d="M9 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 7c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4zm6 5H3v-.99C3.2 16.29 6.3 15 9 15s5.8 1.29 6 2v1zm3-4v-3h-3V9h3V6h2v3h3v2h-3v3h-2z"></path>
+                                    </svg>
+                                </div>
+                                <p>Add another account</p>
+                            </div>
+
+                            <div class="modal__section">
+                                <button class="modal-btn modal__btn-sign back-hover">Sign out</button>
+                            </div>
+
+                            <div class="modal__section modal__footer">
+                                <a href="#" class="modal__privacy back-hover">Privacy Policy</a>
+                                <span class="punkt modal__punkt"></span>
+                                <a href="#" class="modal__terms back-hover">Terms of Service</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- modal end -->
+
+                </ul>
+            </nav>
+
+        </header>
+        
+        <main class="main">
+            
+            <div class="google-greeting main__google-greeting">
+                <img src="./img/greeting.png">
+            </div>
+
+            <form action="#" class="form main__form">
+                <input type="text" class="form__search">
+            </form>
+
+            <div class="main__group-button">
+                <a href="#" class="g-homepage-btn">Google Seach</a>
+                <a href="#" class="g-homepage-btn">I`m Feeling Lucky</a>
+            </div>
+
+        </main>
+        
+        <footer class="footer">
+
+            <div class="footer__section">
+                <ul class="footer__more footer__more--left">
+                    <li class="footer__link"><a href="#">Advertising</a></li>
+                    <li class="footer__link"><a href="#">Business</a></li>
+                    <li class="footer__link"><a href="#">About</a></li>
+                    <li class="footer__link"><a href="#">How Search works</a></li>
+                </ul>
+
+                <ul class="footer__more footer__more--right">
+                    <li class="footer__link"><a href="#">Privacy</a></li>
+                    <li class="footer__link"><a href="#">Terms</a></li>
+                    <li class="footer__link"><a href="#">Settings</a></li>
+                </ul>
+            </div>
+
+        </footer>
+    </div>
+</body>
+</html>

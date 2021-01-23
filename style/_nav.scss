@@ -1,0 +1,49 @@
+.nav {
+    @media (max-width: 380px) {
+        display: none;
+    }
+
+    &__link-list {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        margin: 0px 0px 0px 16px;
+
+        a {
+            color: rgba(0, 0, 0, 0.87);
+        }
+
+        &:first-child {
+            margin: 0px;
+        }
+    }
+
+    &__link--img {
+        height: 100%;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .nav__img {
+            height: 100%;
+            width: auto;
+            max-width: 32px;
+        }
+
+        .nav__img--apps {
+            height: 60%;
+            opacity: 0.5;
+        }
+
+        .nav__img--account {
+            border-radius: 50%;
+        }
+    }
+}
